@@ -25,6 +25,7 @@ const App: React.FC = () => {
                   size="large"
                   onSearch={onSearch}
                   style={{ marginBottom: '20px'}}
+                  className='custom-search'
                 />
                 <div className="blog-intro">
                   <h2>Blog</h2>

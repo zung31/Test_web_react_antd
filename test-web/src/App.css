@@ -14,10 +14,10 @@
   align-items: center;
   justify-content: space-between;
 }
-:where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light, :where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light>.ant-menu {
+.ant-menu-light, .ant-menu-light > .ant-menu {
   background: #f9c7e6;
 }
-:where(.css-dev-only-do-not-override-1htoz2s).ant-layout-header {
+.ant-layout-header {
   color: rgba(249, 199, 230, 1);
   background: #f9c7e6;
 }
@@ -47,14 +47,15 @@
   height: auto; 
   white-space: nowrap;
 }
-:where(.css-dev-only-do-not-override-1htoz2s).ant-badge {
-  margin-right: 14px;
+.custom-search {
+  .ant-btn-primary{
+    background: #c83a67cc;
+  }
 }
-:where(.css-dev-only-do-not-override-1htoz2s).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled){
-  background: #c83a67cc;
-}
-:where(.css-dev-only-do-not-override-1htoz2s).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
-  background: #77223d;
+.custom-search {
+  .ant-btn-primary:hover{
+    background: #77223d;
+  }
 }
 .blog-col {
   position: relative;
