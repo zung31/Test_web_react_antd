@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+.layout {
+  min-height: 100vh;
+}
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+:where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light, :where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light>.ant-menu {
+  background: #f9c7e6;
+}
+:where(.css-dev-only-do-not-override-1htoz2s).ant-layout-header {
+  color: rgba(249, 199, 230, 1);
+  background: #f9c7e6;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 31px;
+  height: 31px;
+  background: rgb(255, 255, 255);
+  margin: 16px 24px 16px 0;
+  border-radius: 100%;
+  float: right;
+}
+.menu-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.notification-box {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 4px 8px; 
+  font-size: 16px;
+  display: inline-block; 
+  text-align: center;
+  line-height: 1; 
+  height: auto; 
+  white-space: nowrap;
+}
+:where(.css-dev-only-do-not-override-1htoz2s).ant-badge {
+  margin-right: 14px;
+}
+:where(.css-dev-only-do-not-override-1htoz2s).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled){
+  background: #c83a67cc;
+}
+:where(.css-dev-only-do-not-override-1htoz2s).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+  background: #77223d;
+}
+.blog-col {
+  position: relative;
+  padding: 16px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 14px 18px rgba(255, 148, 148, 0.4); 
+}
+.custom-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  height: 550px;
+}
+.custom-card .ant-card-body {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.custom-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 182, 193, 0.1);
+}
+.cancel-button:hover {
+  background-color: #77223d !important;
+  border-color: #77223d !important;
+  color: #fff !important;
+}
